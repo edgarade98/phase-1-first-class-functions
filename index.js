@@ -2,7 +2,7 @@ function receivesAFunction(callback) {
     if (typeof callback === 'function') {
       callback(); 
     } else {
-      console.error('The argument is not a function.');
+      console.log('Arguement is not a function.');
     }
   }
 
